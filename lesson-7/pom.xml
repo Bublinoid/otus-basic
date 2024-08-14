@@ -3,20 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>ru.bublinoid.otusbasic</groupId>
+        <artifactId>otus-basic</artifactId>
+        <version>1.0</version>
+    </parent>
 
-    <groupId>ru.bublinoid.otusbasic</groupId>
-    <artifactId>otus-basic</artifactId>
-    <version>1.0</version>
-    <packaging>pom</packaging>
-    <modules>
-        <module>lesson-1</module>
-        <module>lesson-2</module>
-        <module>lesson-3</module>
-        <module>lesson-4</module>
-        <module>lesson-5</module>
-        <module>lesson-6</module>
-        <module>lesson-7</module>
-    </modules>
+    <artifactId>lesson-7</artifactId>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
